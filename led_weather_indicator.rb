@@ -10,7 +10,7 @@ require 'rexml/document'
 require 'pp'
 
 url = "http://weathernews.jp/pinpoint/xml/46106.xml" # 横浜
-dev = "/dev/usbserial"
+dev = "/dev/cu.usbmodem1411"
 log_file = File.dirname($0) + "/weather.log"
 
 f = open(log_file, "a+")
@@ -31,7 +31,7 @@ def code_rank(a)
   rank = {
       0 => 0,
     100 => 1,
-    800 => 2,
+    550 => 2,
     200 => 3,
     300 => 4,
     400 => 5,
