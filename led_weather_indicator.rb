@@ -35,6 +35,7 @@ def code_rank(a)
     200 => 3,
     300 => 4,
     400 => 5,
+    850 => 6,
   }
   return rank[a] if rank.key?(a)
   

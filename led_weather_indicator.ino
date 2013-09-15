@@ -18,6 +18,7 @@ uint32_t color200 = strip.Color( 6,  6,  6); // cloudy
 uint32_t color300 = strip.Color( 0,  0, 12); // rainy
 uint32_t color400 = strip.Color( 6,  6, 12); // snowy
 uint32_t color500 = strip.Color( 6,  1,  1); // hot
+uint32_t color850 = strip.Color( 4,  0, 12); // heavy rain
 
 void setup() {
   Serial.begin(9600);
@@ -61,6 +62,9 @@ void set_led_color() {
         break;
       case '5':
         strip.setPixelColor(i, color500);
+        break;
+      case '8':
+        strip.setPixelColor(i, color850);
         break;
       default:
         strip.setPixelColor(i, strip.Color( 0,  0, 0));
