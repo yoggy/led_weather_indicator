@@ -41,5 +41,5 @@ led_weather_indicator.rbを実行。
 
 crontabに適当に設定
 <pre>
-0,30 * * * * cd $HOME/src/led_weather_indicator && bundle exec ruby led_weather_indicator.rb >/dev/null 2>&1
+0,30 * * * * cd /home/yoggy/src/led_weather_indicator/ && /usr/local/bin/bundle exec ruby ./led_weather_indicator.rb
 </pre>
