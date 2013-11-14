@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    serialport (1.2.3)
+    weather_pinpoint_jp (0.0.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  serialport
+  weather_pinpoint_jp
