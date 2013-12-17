@@ -16,7 +16,7 @@ uint16_t buf_idx = 0;
 uint32_t color100 = strip.Color(12,  6,  0); // sunny
 uint32_t color200 = strip.Color( 6,  6,  6); // cloudy
 uint32_t color300 = strip.Color( 0,  0, 12); // rainy
-uint32_t color400 = strip.Color( 6,  6, 12); // snowy
+uint32_t color400 = strip.Color( 0,  6,  6); // snowy
 uint32_t color500 = strip.Color( 6,  1,  1); // hot
 uint32_t color850 = strip.Color( 4,  0, 12); // heavy rain
 
